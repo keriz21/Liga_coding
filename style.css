@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Space+Grotesk:wght@300&display=swap');
+
+body {
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Space-Grotesk';
+}
+
+#Menu h1, h3 {
+    color: #ffffff;
+}
+
+#Menu{
+    padding-top: 40vh;
+}
+
+#kuliner-1 h1 {
+    display: inline-block;
+}
+
+section {
+    min-height: 100vh;
+}
+
+#kuliner-1,
+#kuliner-3,
+#kuliner-5,
+#wisata-2,
+#wisata-4 {
+    color: white;
+    background-color: #630A10;
+
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.row{
+    padding-top: 25vh;
+}
+
+img {
+    border-radius: 10px;
+}
+
+#Menu {
+    background-image: url(img/gunung_bromo.jpg);
+    background-color: rgba(255,255,255);
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+.navbar {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.navbar a {
+    color: black;
+    padding: 5px 15px;
+    border-radius: 1px;
+    
+}
+
+.navbar a:hover {
+    background-color:#630A10 ;
+    border-radius: 10px;
+    color: white;
+}
